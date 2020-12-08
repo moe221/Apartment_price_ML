@@ -1,5 +1,9 @@
 # Berlin Apartment Rental Price Predictor - Overview
 
+I'm about to start looking for a new apartment in Berlin and decided that this project would be a great way for me to try and understand the rental market in berlin as well as practice some ML concepts! 
+
+This is a short overview of the project.
+
 * Implemented three different Machin learning models that could estimate the total rent price (Warmmiete) of an apartment in berlin with a MAE of  170 €.
 * Used two different datasets scrapped from Immobilienscout24.de.
 * The raw data consisted of rental offers posted on Immobilienscout24 in Sep 2018, May 2019, Oct 2019, Feb 2020 and Apr 2020.
