@@ -74,7 +74,8 @@ The following evaluation metrics were used to compare the performance of the mod
 * Mean Absolute Error (MAE)
 * Root Mean Squared Error (RMSE)
 * R-squared (R²)
-The best hyperparameters for the Random Forest model were chosen using the GridsearchCV method
+
+- The best hyperparameters for the Random Forest model were chosen using the GridsearchCV method
 
 ## Results 
 Each model’s performance is shown in the following table: 
