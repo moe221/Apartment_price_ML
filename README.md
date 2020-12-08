@@ -1,6 +1,6 @@
 # Berlin Apartment Rental Price Predictor - Overview
 
-I'm about to start looking for a new apartment in Berlin and decided that this project would be a great way for me to try and understand the rental market in berlin as well as practice some ML concepts! 
+I'm about to start looking for a new apartment and decided that this project would be a great way for me to try and understand the rental market in Berlin as well as practice some ML concepts! 
 
 This is a short overview of the project.
 
@@ -13,16 +13,14 @@ This is a short overview of the project.
 
 <img align="center" src="https://github.com/moe221/Apartment_price_ML/blob/main/Images/Berlin-map.png"> 
 
-
 ## Code and Resources Used 
-**Python Version:** 3.7  
-**Packages:** pandas, numpy, sklearn, matplotlib, seaborn, scipy, plotly, statsmodels, geopandas
-**Code references and ideas:  
-- Geolocation- plot code : https://juanitorduz.github.io/germany_plots/
-- Preprocessing:  365 DataScience (Udemey Course)
-- Model selection and tuning: Data Science Project from Scratch, Ken Jee (https://www.youtube.com/channel/UCiT9RITQ9PW6BhXK0y2jaeg)
-** Data source 1:** https://www.kaggle.com/corrieaar/apartment-rental-offers-in-germany
-** Data source 2:** https://www.kaggle.com/phanindraparashar/germany-housing-rent-and-price-data-set-apr-20
+- **Python Version:** 3.7  
+- **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, scipy, plotly, statsmodels, geopandas
+- **Geolocation- plot code:** https://juanitorduz.github.io/germany_plots/
+- **Preprocessing:**  365 DataScience (Udemey Course)
+- **Model selection and tuning:** Data Science Project from Scratch, Ken Jee (https://www.youtube.com/channel/UCiT9RITQ9PW6BhXK0y2jaeg)
+- **Data source 1:** https://www.kaggle.com/corrieaar/apartment-rental-offers-in-germany
+- **Data source 2:** https://www.kaggle.com/phanindraparashar/germany-housing-rent-and-price-data-set-apr-20
 
 
 ## Data Joining
