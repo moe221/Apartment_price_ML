@@ -3,9 +3,9 @@
 * Implemented three different Machin learning models that could estimate the total rent price (Warmmiete) of an apartment in berlin with a MAE of  170 €.
 * Used two different datasets scrapped from Immobilienscout24.de.
 * The raw data consisted of rental offers posted on Immobilienscout24 in Sep 2018, May 2019, Oct 2019, Feb 2020 and Apr 2020.
-*Cleaned a joined the two datasets as well as created new features from the description of each listing on ordered to identify the most important documents that are asked for when applying for an apartment. 
-* Conducted an extensive EDA in order to develop insight on the rental market in Berlin
-* Used GridsearchCV to find the best hyperparameters for a Random Forest Regression
+* Cleaned and joined the two datasets as well as created new features from the description of each listing on ordered to identify the most important documents that are asked for when applying for an apartment. 
+* Conducted an extensive EDA in order to develop insight on the rental market in Berlin.
+* Used GridsearchCV to find the best hyperparameters for a Random Forest Regression.
 
 <img align="center" width="480" height="400" src="https://github.com/moe221/ "> 
 
