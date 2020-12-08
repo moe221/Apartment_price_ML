@@ -7,12 +7,12 @@
 * Conducted an extensive EDA in order to develop insight on the rental market in Berlin.
 * Used GridsearchCV to find the best hyperparameters for a Random Forest Regression.
 
-<img align="center" width="480" height="400" src="https://github.com/moe221/ "> 
+<img align="center"src="https://github.com/moe221/Apartment_price_ML/blob/main/Images/Berlin-map.png"> 
 
 
 ## Code and Resources Used 
 **Python Version:** 3.7  
-**Packages:** pandas, numpy, sklearn, matplotlib, seaborn, scipy, plotly, statsmodels 
+**Packages:** pandas, numpy, sklearn, matplotlib, seaborn, scipy, plotly, statsmodels, geopandas
 **Code references and ideas:  
 - Geolocation- plot code : https://juanitorduz.github.io/germany_plots/
 - Preprocessing:  365 DataScience (Udemey Course)
@@ -63,7 +63,8 @@ Since the data was scrapped from a website, there were many missing values and f
 ## EDA
 In order to understand the data obtained from the cleaned dataset, a short analysis was conducted to develop insight and locate correlations and relationships between total rent and the other features. 
 
-<img align="center" src="https://github.com/moe221/
+<img align="center" src="https://github.com/moe221/Apartment_price_ML/blob/main/Images/heatmap.png"> 
+<img align="center" src="https://github.com/moe221/Apartment_price_ML/blob/main/Images/boxplot-noRooms.png"> 
 
 ## Model Building
 Three different regression models were tested on the data, namely Multiple linear Regression, Lasso Regression and Random Forest. 
