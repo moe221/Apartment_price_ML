@@ -11,7 +11,7 @@ This is a short overview of the project.
 * Conducted an extensive EDA in order to develop insight on the rental market in Berlin.
 * Used GridsearchCV to find the best hyperparameters for a Random Forest Regression.
 
-<img align="center" src="https://github.com/moe221/Apartment_price_ML/blob/main/Images/Berlin-map.png"> 
+<img align="center" src="https://github.com/moe221/Apartment_price_ML/blob/main/Images/Berlin-map1.png"> 
 
 ## Code and Resources Used 
 - **Python Version:** 3.7  
