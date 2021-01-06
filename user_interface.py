@@ -20,12 +20,14 @@ def predict_price():
 
     new_features = features
     new_features['livingSpace'] = living_space_input()
-
+    new_features['buildingAge'] = building_choice()
+    new_features['newlyConst'] = newlyConst()
     new_features['balcony'] = balcony_choice()
     new_features['hasKitchen'] = kitchen_choice()
     new_features['cellar'] = cellar_choice()
     new_features['lift'] = lift_choice()
     new_features['garden'] = garden_choice()
+
 
     for key in new_features:
         if flat_choice().replace(' ', '_').lower() in key:
@@ -103,13 +105,15 @@ def living_space_input():
 my_input1 = tk.Entry(width=10, justify='center', takefocus=1)
 my_input1.grid(row=0, column=1)
 # label living space
-living_space_label = tk.Label(text='Living Space (min. 20m²) :')
+living_space_label = tk.Label(text='Living Space (min. 20m²)* :')
 living_space_label.grid(row=0, column=0)
 living_space_label.config(pady=10, padx=5)
 # unit label
 unit_label = tk.Label(text='m²', width=2)
 unit_label.grid(row=0, column=2)
 unit_label.config(pady=10, padx=5)
+
+
 
 
 ## Balcony
@@ -194,6 +198,42 @@ radiobutton8.grid(row=6, column=2)
 garden = tk.Label(text='Garden :', width=5)
 garden.grid(row=6, column=0)
 garden.config(pady=10, padx=5)
+
+
+## building_age
+def newlyConst():
+    return int(radio_state6.get())
+
+radio_state6 = tk.IntVar()
+radiobutton10 = tk.Radiobutton(text="Yes", value=1, variable=radio_state6, command=newlyConst)
+radiobutton11 = tk.Radiobutton(text="No", value=0, variable=radio_state6, command=newlyConst)
+radiobutton10.grid(row=2, column=1)
+radiobutton11.grid(row=2, column=2)
+# balcony_label
+newlyConst_label = tk.Label(text='Newly built:')
+newlyConst_label.grid(row=2, column=0)
+newlyConst_label.config(pady=10, padx=5)
+
+
+# building_age
+def building_choice():
+    while True:
+        try:
+            user_input = int(my_input7.get())
+        except ValueError:
+            return 0
+        else:
+            return user_input
+
+
+## Living Space
+# input living space
+my_input7 = tk.Entry(width=10, justify='center', takefocus=1)
+my_input7.grid(row=1, column=1)
+# label living space
+building_label = tk.Label(text='Building age (in years) :')
+building_label.grid(row=1, column=0)
+building_label.config(pady=10, padx=5)
 
 
 # type of flat
