@@ -10,6 +10,7 @@ This is a short overview of the project.
 * Cleaned and joined the two datasets as well as created new features from the description of each listing on ordered to identify the most important documents that are asked for when applying for an apartment. 
 * Conducted an extensive EDA in order to develop insight on the rental market in Berlin.
 * Used GridsearchCV to find the best hyperparameters for a Random Forest Regression.
+* Serialized the RF model using pickle and created a simple UI with tkinter.
 
 <img align="center" src="https://github.com/moe221/Apartment_price_ML/blob/main/Images/Berlin-map1.png"> 
 <img align="center" src="https://github.com/moe221/Apartment_price_ML/blob/main/Images/UI-screenshot.png"> 
