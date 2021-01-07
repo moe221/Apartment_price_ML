@@ -80,7 +80,7 @@ button.grid(row=9, column=1)
 window.bind('<Return>', lambda event=None: button.invoke())
 
 # estimate label1
-estimate_label1 = tk.Label(text='Estimated apartment\nrental price:')
+estimate_label1 = tk.Label(text='Estimated apartment\nrental price (warm):')
 estimate_label1.grid(row=10, column=0)
 estimate_label1.config(pady=30, padx=20)
 
@@ -231,7 +231,7 @@ def building_choice():
 my_input7 = tk.Entry(width=10, justify='center', takefocus=1)
 my_input7.grid(row=1, column=1)
 # label living space
-building_label = tk.Label(text='Building age (in years) :')
+building_label = tk.Label(text='Building age (in years)* :')
 building_label.grid(row=1, column=0)
 building_label.config(pady=10, padx=5)
 
