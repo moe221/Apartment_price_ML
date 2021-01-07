@@ -12,10 +12,11 @@ This is a short overview of the project.
 * Used GridsearchCV to find the best hyperparameters for a Random Forest Regression.
 
 <img align="center" src="https://github.com/moe221/Apartment_price_ML/blob/main/Images/Berlin-map1.png"> 
+<img align="center" src="https://github.com/moe221/Apartment_price_ML/blob/main/Images/UI-screenshot.png"> 
 
 ## Code and Resources Used 
 - **Python Version:** 3.7  
-- **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, scipy, plotly, statsmodels, geopandas
+- **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, scipy, plotly, statsmodels, geopandas, pickle, tkinter
 - **Geolocation- plot code:** https://juanitorduz.github.io/germany_plots/
 - **Preprocessing:**  365 DataScience (Udemey Course)
 - **Model selection and tuning:** Data Science Project from Scratch, Ken Jee (https://www.youtube.com/channel/UCiT9RITQ9PW6BhXK0y2jaeg)
